@@ -77,4 +77,13 @@ public class CityList {
     public int countCities() {
         return cities.size();
     }
+
+    /**
+     * Return the size of the city list
+     * @return
+     *      Size of city list
+     */
+    public boolean isempty() {
+        return cities.size() == 0;
+    }
 }
